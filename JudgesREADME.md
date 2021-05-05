@@ -8,7 +8,6 @@ QSM is a state design pattern for embedded flight systems the modern era.
 - Runtime polymorphism
 - Abstract + Concrete Inheritance
 - Heirarchical representation in code
-- ✨Magic ✨
 
 ## Features
 
@@ -81,9 +80,6 @@ As such to test it we must first spend time setting up a similiar environment..
 (We have supplied a sample statechart.)
 
 8. Create a list of events with time dispatched  > in.txt  (We have supplied a sample input file.)
-EVENT 10
-EVENT 15
-EVENT 20
 
 9. Run your machine by executing:
     ```sh
@@ -91,7 +87,7 @@ EVENT 20
     ```
     Or run our sample with
     ```sh
-    main.py src\XML\demoChart3.qm in.txt
+    main.py XML\demoChart3.qm in.txt
     ```
 
 ## Team Members
