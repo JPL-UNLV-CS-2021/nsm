@@ -6,4 +6,7 @@ QSM State Machine
 
 
 ## Running the example
-Run the provided by 
+Run the provided by
+
+
+## Running the Unit Tests

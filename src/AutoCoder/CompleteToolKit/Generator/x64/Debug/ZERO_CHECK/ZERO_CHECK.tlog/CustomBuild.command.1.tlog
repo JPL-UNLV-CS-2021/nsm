@@ -1,0 +1,10 @@
+^C:\USERS\DEV\DESKTOP\XMLPARSER\GENERATOR\CMAKEFILES\D41DE13AA5589054AC32E3CCC8785086\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/dev/source/repos/cs472spring2021team8/Autocoder/Generation -BC:/Users/dev/Desktop/XMLParser/Generator --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/dev/Desktop/XMLParser/Generator/QSM.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
