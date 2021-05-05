@@ -6,8 +6,8 @@
 #include <thread>
 #include <chrono>
 #include <string>
-#include "FSMState.h"
-#include "../StateMachine/FSMStateMachine.h"
+#include "State.h"
+#include "../StateMachine/StateMachine.h"
 #include "../Events/Event.h"
 
 using namespace std;

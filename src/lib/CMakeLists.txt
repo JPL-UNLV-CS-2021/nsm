@@ -4,10 +4,10 @@ project(QSM)
 set(CMAKE_CXX_STANDARD 14)
 
 add_library(
-        State/HSMState.h
-        State/HSMState.cpp
-        StateMachine/HSM.h
-        StateMachine/HSM.cpp
+        HSM/State/HSMState.h
+        HSM/State/HSMState.cpp
+        HSM/StateMachine/HSM.h
+        HSM/StateMachine/HSM.cpp
 )
 
 #add_executable(

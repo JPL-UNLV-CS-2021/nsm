@@ -6,7 +6,7 @@
 // It is akin to the Context class in the GOF design pattern on State.  
 //
 
-#include "FSMStateMachine.h"
+#include "StateMachine.h"
 #include "../State/LightOffState.h"
 #include "../State/LightOnState.h"
 #include "../State/TrafficLight/Off.h"
