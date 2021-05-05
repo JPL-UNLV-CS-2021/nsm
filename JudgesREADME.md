@@ -83,11 +83,11 @@ As such to test it we must first spend time setting up a similiar environment..
 
 9. Run your machine by executing:
     ```sh
-    main.py XML\<yourStateChart.qm> <yourInput.txt>
+    python main.py XML\<yourStateChart.qm> <yourInput.txt>
     ```
     Or run our sample with
     ```sh
-    main.py XML\demoChart3.qm in.txt
+    python main.py XML\demoChart3.qm in.txt
     ```
 
 ## Team Members
