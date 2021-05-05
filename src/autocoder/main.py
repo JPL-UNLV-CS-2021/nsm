@@ -6,6 +6,7 @@ if len(sys.argv) != 3:
     print("\tmain.py <StateMachineXMLFile> <StateMachineEventInput>")
     quit()
 
+os.system("mkdir Generation")
 os.chdir("Generation")
 os.system("cmake ../CPPGenerator")
 os.system("cmake --build .")
