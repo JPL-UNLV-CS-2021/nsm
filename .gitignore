@@ -40,3 +40,9 @@
 cmake-build-debug
 
 .DS_Store
+
+out/
+.vs/
+build/
+CMakeFiles
+

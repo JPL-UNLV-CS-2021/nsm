@@ -1,3 +1,0 @@
-C:/Users/dev/Desktop/XMLParser/Generator/CMakeFiles/Generation.dir
-C:/Users/dev/Desktop/XMLParser/Generator/CMakeFiles/ALL_BUILD.dir
-C:/Users/dev/Desktop/XMLParser/Generator/CMakeFiles/ZERO_CHECK.dir
