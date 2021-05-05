@@ -1,7 +1,7 @@
 # Quantom State Machine
-## Title:
+## Title
 A Naïve Analysis of HSM vs FSM State Design Patterns
-## Abstract:
+## Abstract
 UNLV Senior Design team conducted an analysis of hierarchical vs flat implementations of state machine design patterns.
 The team used two patterns to compare:
 1. An original hierarchical design pattern using a modified version of the state design pattern defined in the GOF.
