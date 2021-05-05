@@ -70,7 +70,7 @@ As such to test it we must first spend time setting up a similiar environment..
 
 6. Go back to the commandline and run the following commands
 	```sh 
-    cd %USERPROFILE%\Downloads\qsm\qsm\autocoder
+    cd %USERPROFILE%\Downloads\qsm\qsm\src\autocoder
 	py -m venv venv_autocoder
 	venv_autocoder\Scripts\activate
 	pip install -r requirements.txt
