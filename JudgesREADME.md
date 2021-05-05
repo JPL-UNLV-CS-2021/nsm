@@ -59,7 +59,7 @@ As such to test it we must first spend time setting up a similiar environment..
 	  There should be version 3.X.X.
 	  Use quit() or Ctrl-Z plus Return to exit
 	- In the command prompt type "cmake"
-	  You should see:
+	  You should see a response other than "cmake not recogonized".
 
         If both of those work then we successfully have CMAKE and python installed.
         
