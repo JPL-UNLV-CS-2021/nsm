@@ -10,7 +10,7 @@
 
 #include <string>
 #include <queue>
-#include "../Events/Event.h"
+#include "Event.h"
 
 #ifndef QSM_STATEMACHINE_H
 #define QSM_STATEMACHINE_H

@@ -7,8 +7,8 @@
 //
 
 #include "StateMachine.h"
-//#include "../State/LightOffState.h"
-//#include "../State/LightOnState.h"
+#include "LightOffState.h"
+#include "LightOnState.h"
 #include <time.h>
 #include <thread>
 
@@ -24,21 +24,21 @@ StateMachine::StateMachine() {
 
 void StateMachine::InitializeState() {
 
-//    State* INIT_STATE  = new LightOffState(this);
-//    State* NEXT_STATE =  new LightOnState(this);
-//
-//    INIT_STATE->AddTransition("switch-on", NEXT_STATE);
-//
-//    NEXT_STATE->AddTransition("switch-off", INIT_STATE);
-//    NEXT_STATE->AddTransition("timeout", INIT_STATE);
+    State* INIT_STATE  = new LightOffState(this);
+    State* NEXT_STATE =  new LightOnState(this);
+
+    INIT_STATE->AddTransition("switch-on", NEXT_STATE);
+
+    NEXT_STATE->AddTransition("switch-off", INIT_STATE);
+    NEXT_STATE->AddTransition("timeout", INIT_STATE);
 
     this->_currentState = INIT_STATE;
 }
 
 void StateMachine::InitializeEventQueue() {
-//    this->_eventQueue.push(Event("switch-on", "external"));
-//    this->_eventQueue.push(Event("switch-off", "external", 500));
-//    this->_eventQueue.push(Event("switch-on", "external", 500));
+    this->_eventQueue.push(Event("switch-on", "external"));
+    this->_eventQueue.push(Event("switch-off", "external", 500));
+    this->_eventQueue.push(Event("switch-on", "external", 500));
 }
 
 
