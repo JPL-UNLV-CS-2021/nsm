@@ -3,13 +3,13 @@
 #ifndef HSMState_
 #define HSMState_
 
-#include "../HSM/HSM.h"
+#include "../StateMachine/StateMachine.h"
 #include <iostream>
-class HSM;
+class StateMachine;
 
-class HSMState {
+class State {
 public:
-    HSMState();
+    State();
 
 
     // One for each edge
@@ -23,16 +23,16 @@ public:
     virtual void Entry() = 0;
     virtual void Exit() = 0;
 
-    HSM* _context = nullptr;
+    StateMachine* _context = nullptr;
 
     //Used for exit/enter call stack
-    HSMState* _parent = nullptr;
+    State* _parent = nullptr;
     int level = -1;
 
 
 protected:
-    void ChangeState(HSM*, HSMState*);
-    void InitialTransition(HSM*, HSMState*);
+    void ChangeState(StateMachine*, State*);
+    void InitialTransition(StateMachine*, State*);
 };
 
 #endif

@@ -1,23 +1,24 @@
 //#include all states
 
-#include "HSM.h"
-#include "../Off/Off.h"
-#include "../On/On.h"
+#include "StateMachine.h"
 
 
-HSM::HSM() {
+StateMachine::StateMachine() {
     //INIT ALL STATES
     initalizeMemory();
 }
 
-void HSM::initalizeMemory() {
+void StateMachine::initalizeMemory() {
 
+
+    // Example state "Off"
     static Off a;
     a._self = &a;
     a._context = this;
     a.level = 0;
     a._parent = NULL;
 
+    // Example state "On"
     static On b;
     b._self = &b;
     b._context = this;
@@ -27,7 +28,7 @@ void HSM::initalizeMemory() {
 }
 
 
-void HSM::ChangeState(HSMState* s) {
+void StateMachine::ChangeState(State* s) {
 
     //This function fills entry and exit array
     HandleEntryExit(_state, s);
@@ -53,15 +54,15 @@ void HSM::ChangeState(HSMState* s) {
     //_state->Entry();
 }
 
-void HSM::InitialTransition(HSMState* s) {
+void StateMachine::InitialTransition(State* s) {
     _state = s;
     _state->Entry();
 }
 
 
-void HSM::HandleEntryExit(HSMState* FROM, HSMState* TO) {
-    HSMState* fromOriginal = FROM;
-    HSMState* toOriginal = TO;
+void StateMachine::HandleEntryExit(State* FROM, State* TO) {
+    State* fromOriginal = FROM;
+    State* toOriginal = TO;
     numOfEntryStates = 0;
     numOfExitStates = 0;
     //Check current Levels
@@ -103,13 +104,13 @@ void HSM::HandleEntryExit(HSMState* FROM, HSMState* TO) {
 }
 
 //This handles the first state the system enters
-void HSM::START() {
+void StateMachine::START() {
     //Hacky way to deal with system start up
     this->_state = Off::Instance();
     _state->Entry();
 
 }
 
-void HSM::TIMEOUT() {
+void StateMachine::TIMEOUT() {
     _state->TIMEOUT();
 }

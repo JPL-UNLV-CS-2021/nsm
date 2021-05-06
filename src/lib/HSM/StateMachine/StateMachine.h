@@ -1,13 +1,13 @@
 
 #ifndef HSM_
 #define HSM_
-#include "../HSMState/HSMState.h"
+#include "../State/State.h"
 #include <iostream>
 #define H_LEVEL 1
 
-class HSMState;
+class State;
 
-class HSM {
+class StateMachine {
 public:
     HSM();
     void START();
@@ -20,19 +20,19 @@ public:
     //NONE
 
     //State Design
-    HSMState* _state;
-    friend class HSMState;
-    void ChangeState(HSMState*);
-    void InitialTransition(HSMState*);
-    void HandleEntryExit(HSMState*, HSMState*);
+    State* _state;
+    friend class State;
+    void ChangeState(State*);
+    void InitialTransition(State*);
+    void HandleEntryExit(State*, State*);
     //CallStacks
     //The length of these arrays is equal to
     //the height of the heirarchial state machine
-    HSMState* entryStates[H_LEVEL];
-    HSMState* exitStates[H_LEVEL];
+    State* entryStates[H_LEVEL];
+    State* exitStates[H_LEVEL];
     int numOfEntryStates;
     int numOfExitStates;
-    HSMState* commonParent;
+    State* commonParent;
 
 
 };
