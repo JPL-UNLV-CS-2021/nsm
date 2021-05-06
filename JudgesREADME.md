@@ -1,4 +1,6 @@
-# Instructions for judges * VERIFIED TO WORK WITH MicrosoftVisualStudio Compiler ONLY *
+# Instructions for judges 
+
+- * VERIFIED TO WORK WITH MicrosoftVisualStudio Compiler ONLY *
 ## _Must be run on a windows 10 Machine_
 QSM is a state design pattern for embedded flight systems in the modern era.
 
