@@ -37,9 +37,9 @@ QSM is a tool to be used in conjuction with other tools  by JPL engineers in a d
 As such to test it we must first spend time setting up a similiar environment..
 
 1. [Install QM](https://www.state-machine.com/qm/)
-	![p1]https://i.ibb.co/CV0Sxw3/p1.png
+	![p1](https://i.ibb.co/CV0Sxw3/p1.png)
 
-	![p2]https://i.ibb.co/CV0Sxw3/p2.png
+	![p2](https://i.ibb.co/CV0Sxw3/p2.png)
 
 2. Figure out what kind of architecture your operating system is currently running. 32 bit or 64 bit
 	![ARCH32OR64](https://i.ibb.co/XC1BW3x/image.png)
