@@ -45,4 +45,5 @@ out/
 .vs/
 build/
 CMakeFiles
+settings.json
 
