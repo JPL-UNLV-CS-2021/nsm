@@ -36,70 +36,80 @@ And of course QSM itself is open source with a [public repository](https://githu
 QSM is a tool to be used in conjuction with other tools  by JPL engineers in a development environment.
 As such to test it we must first spend time setting up a similiar environment..
 
-1. [Install QM](https://www.state-machine.com/qm/)
-	![p1](https://i.ibb.co/CV0Sxw3/p1.png)
+# 1. [Install QM](https://www.state-machine.com/qm/)
 
-	![p2](https://i.ibb.co/DMcWzNr/p2.png)
+![p1](https://i.ibb.co/CV0Sxw3/p1.png)
 
-2. Figure out what kind of architecture your operating system is currently running. 32 bit or 64 bit
-	![ARCH32OR64](https://i.ibb.co/XC1BW3x/image.png)
+![p2](https://i.ibb.co/DMcWzNr/p2.png)
+
+# 2. Determine what kind of architecture your operating system is currently running. 32 bit or 64 bit
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![ARCH32OR64](https://i.ibb.co/MBsdgvH/image.png)
 	
-3. [Install CMAKE](https://cmake.org/download/)
+# 3. [Install CMAKE](https://cmake.org/download/)
 - Scroll to "Binary distributions:" (under "Source Distributions")
 - If you have a 32 bit version of Windows 10, download "Windows i386 Installer"
 - If you have a 64 bit version of Windows 10, download "Windows x64 Installer"
-	![p3](https://i.ibb.co/h1X1dLq/p3.png)
+![p3](https://i.ibb.co/sq1JHWw/p3.png)
 - Run the installer
-	![p4](https://i.ibb.co/Dgwt4Mz/p4.png)
-	- Accept User Agreement
+	![p4](https://i.ibb.co/SvsgyDG/p4.png)
+- Accept User Agreement
 	![p5](https://i.ibb.co/PM82YNk/p5.png)
-	- On the Install Options page
-		- SELECT "Add CMake to the system PATH for all users"
-		- Next
+- On the Install Options page
+	- SELECT "Add CMake to the system PATH for all users"
+	- Next
 	![p6](https://i.ibb.co/yWKskwR/p6.png)
-	- Choose your installation location. The default is fine.
+- Choose your installation location. The default is fine.
 	![p7](https://i.ibb.co/4fBSTKM/p7.png)
-	- Proceed to install!
+- Proceed to install!
 	![p8](https://i.ibb.co/dQwN86V/p8.png)
 
-4. Double check the installation
-	- Select the Start button
-	- Type "Command Prompt" and launch the command prompt
-	- In the command prompt type "python"
-	  There should be version 3.X.X.
-	  Use quit() or Ctrl-Z plus Return to exit
-	- In the command prompt type "cmake"
-	  You should see a response other than "cmake not recogonized".
+# 4. Double check the installation
 
-        If both of those work then we successfully have CMAKE and python installed.
+- Select the Start button
+ 	![p9](https://i.ibb.co/72PnzX5/p9.png)
+- Type "Command Prompt" and launch the command prompt
+    ![p10](https://i.ibb.co/GsqBF36/p10.png)
+- In the command prompt type "python"
+  There should be version 3.X.X.
+  Use quit() or Ctrl-Z plus Return to exit
+    ![p11](https://i.ibb.co/Tk6mQ55/p12.png)
+- In the command prompt type "cmake"
+  You should see a usage response.
+    ![p12](https://i.ibb.co/pdTXWJc/p13.png)
         
-5. Download the project.
+# 5. [Download the project.](https://github.com/JPL-UNLV-CS-2021/qsm)
 
-- Go to https://github.com/JPL-UNLV-CS-2021/qsm
-- Click "Code" and then "Download ZIP"
+- Click "Code"
+![p13](https://i.ibb.co/9W6mKTd/p14.png)
+- Click "Download ZIP"
+![p14](https://i.ibb.co/sjwzmJw/p15.png)
 - Extract the ZIP file in your downloads folder
+![p15](https://i.ibb.co/Z60TXx7/p16.png)
+![p16](https://i.ibb.co/4mccg0F/p17.png)
 
-6. Go back to the commandline and run the following commands
-	```sh 
-    cd Downloads\qsm\qsm\src\autocoder
-	py -m venv venv_autocoder
-	venv_autocoder\Scripts\activate
-	pip install -r requirements.txt
-	```
+# 6. Go back to the command line and run the following commands
+```sh 
+cd Downloads\qsm\qsm\src\autocoder
+py -m venv venv_autocoder
+venv_autocoder\Scripts\activate
+pip install -r requirements.txt
+```
 
-7. Make sure you have a valid QM statechart in the "Downloads\qsm\qsm\autocoder\XML" directory. 
+# 7. Make sure you have a valid QM statechart in the "Downloads\qsm\qsm\autocoder\XML" directory. 
 (We have supplied a sample statechart.)
 
-8. Create a list of events with time dispatched  > in.txt  (We have supplied a sample input file.)
+# 8. Create a list of events with time dispatched  > in.txt  
+(We have supplied a sample input file.)
 
-9. Run your machine by executing:
-    ```sh
-    python main.py XML\<yourStateChart.qm> <yourInput.txt>
-    ```
-    Or run our sample with
-    ```sh
-    python main.py XML\demoChart3.qm in.txt
-    ```
+# 9. Run your machine by executing:
+```sh
+python main.py XML\<yourStateChart.qm> <yourInput.txt>
+```
+Or run our sample with
+```sh
+python main.py XML\demoChart3.qm in.txt
+```
 
 ## Team Members
 | Members | Github |
