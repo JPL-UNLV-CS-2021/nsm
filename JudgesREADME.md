@@ -13,7 +13,7 @@ QSM is a state design pattern for embedded flight systems in the modern era.
 
 - Import a QM file and watch it magically convert to a running state machine.
 - Run heirarchical state machines with a virtually unlimited nesting depth.
-- Create events in a simulated environment to see how the machine fairs.
+- Create events in a simulated environment to see how the machine operates in a live scenerio.
 - Change any aspect to the original statemachine design, and have a new machine in one command.
 
 ## Installation for Auto Coder
