@@ -10,20 +10,20 @@ StateMachine::StateMachine() {
 
 void StateMachine::initalizeMemory() {
 
+    // Example Initialization of Generated State Classes as Singletons
+    // // Example state "Off"
+    // static Off a;
+    // a._self = &a;
+    // a._context = this;
+    // a.level = 0;
+    // a._parent = NULL;
 
-    // Example state "Off"
-    static Off a;
-    a._self = &a;
-    a._context = this;
-    a.level = 0;
-    a._parent = NULL;
-
-    // Example state "On"
-    static On b;
-    b._self = &b;
-    b._context = this;
-    b.level = 0;
-    b._parent = NULL;
+    // // Example state "On"
+    // static On b;
+    // b._self = &b;
+    // b._context = this;
+    // b.level = 0;
+    // b._parent = NULL;
 
 }
 

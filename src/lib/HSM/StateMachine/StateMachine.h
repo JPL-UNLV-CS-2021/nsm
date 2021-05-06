@@ -9,7 +9,7 @@ class State;
 
 class StateMachine {
 public:
-    HSM();
+    StateMachine();
     void START();
     void initalizeMemory();
     //A list of all events in the system
