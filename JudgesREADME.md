@@ -52,7 +52,7 @@ As such to test it we must first spend time setting up a similiar environment..
 - If you have a 64 bit version of Windows 10, download "Windows x64 Installer"
 ![p3](https://i.ibb.co/sq1JHWw/p3.png)
 - Run the installer
-- ![p4](https://i.ibb.co/SvsgyDG/p4.png)
+![p4](https://i.ibb.co/SvsgyDG/p4.png)
 - Accept User Agreement
 ![p5](https://i.ibb.co/PM82YNk/p5.png)
 - On the Install Options page
