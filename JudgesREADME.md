@@ -52,31 +52,31 @@ As such to test it we must first spend time setting up a similiar environment..
 - If you have a 64 bit version of Windows 10, download "Windows x64 Installer"
 ![p3](https://i.ibb.co/sq1JHWw/p3.png)
 - Run the installer
-	![p4](https://i.ibb.co/SvsgyDG/p4.png)
+- ![p4](https://i.ibb.co/SvsgyDG/p4.png)
 - Accept User Agreement
-	![p5](https://i.ibb.co/PM82YNk/p5.png)
+![p5](https://i.ibb.co/PM82YNk/p5.png)
 - On the Install Options page
 	- SELECT "Add CMake to the system PATH for all users"
 	- Next
-	![p6](https://i.ibb.co/yWKskwR/p6.png)
+![p6](https://i.ibb.co/yWKskwR/p6.png)
 - Choose your installation location. The default is fine.
-	![p7](https://i.ibb.co/4fBSTKM/p7.png)
+![p7](https://i.ibb.co/4fBSTKM/p7.png)
 - Proceed to install!
-	![p8](https://i.ibb.co/dQwN86V/p8.png)
+![p8](https://i.ibb.co/dQwN86V/p8.png)
 
 # 4. Double check the installation
 
 - Select the Start button
- 	![p9](https://i.ibb.co/72PnzX5/p9.png)
+- ![p9](https://i.ibb.co/72PnzX5/p9.png)
 - Type "Command Prompt" and launch the command prompt
-    ![p10](https://i.ibb.co/GsqBF36/p10.png)
+![p10](https://i.ibb.co/GsqBF36/p10.png)
 - In the command prompt type "python"
   There should be version 3.X.X.
   Use quit() or Ctrl-Z plus Return to exit
-    ![p11](https://i.ibb.co/Tk6mQ55/p12.png)
+![p11](https://i.ibb.co/Tk6mQ55/p12.png)
 - In the command prompt type "cmake"
   You should see a usage response.
-    ![p12](https://i.ibb.co/pdTXWJc/p13.png)
+![p12](https://i.ibb.co/pdTXWJc/p13.png)
         
 # 5. [Download the project.](https://github.com/JPL-UNLV-CS-2021/qsm)
 
