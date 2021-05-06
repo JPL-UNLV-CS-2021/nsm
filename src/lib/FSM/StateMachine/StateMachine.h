@@ -5,7 +5,8 @@
 
 #include <string>
 #include <queue>
-#include "../Events/Event.h"
+#include "../Event/Event.h"
+#include "../State/State.h"
 
 #ifndef QSM_STATEMACHINE_H
 #define QSM_STATEMACHINE_H

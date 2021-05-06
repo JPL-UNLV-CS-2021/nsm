@@ -5,6 +5,7 @@
 #include <iostream>
 #include <map>
 #include <vector>
+#include <atomic>
 
 #ifndef QSM_STATE_H
 #define QSM_STATE_H

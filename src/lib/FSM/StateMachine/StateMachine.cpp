@@ -4,6 +4,7 @@
 **/
 
 #include "StateMachine.h"
+#include <iostream>
 #include <time.h>
 #include <thread>
 

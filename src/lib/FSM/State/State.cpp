@@ -4,7 +4,7 @@
 #include <string>
 #include "State.h"
 #include "../StateMachine/StateMachine.h"
-#include "../Events/Event.h"
+#include "../Event/Event.h"
 
 using namespace std;
 

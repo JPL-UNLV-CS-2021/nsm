@@ -11,6 +11,7 @@ StateMachine::StateMachine() {
 void StateMachine::initalizeMemory() {
 
     // Example Initialization of Generated State Classes as Singletons
+
     // // Example state "Off"
     // static Off a;
     // a._self = &a;
@@ -105,7 +106,7 @@ void StateMachine::HandleEntryExit(State* FROM, State* TO) {
 
 //This handles the first state the system enters
 void StateMachine::START() {
-    // Example to set initial state
+    // Example: Set initial state
     // this->_state = Off::Instance();
     _state->Entry();
 
