@@ -48,13 +48,19 @@ As such to test it we must first spend time setting up a similiar environment..
 - Scroll to "Binary distributions:" (under "Source Distributions")
 - If you have a 32 bit version of Windows 10, download "Windows i386 Installer"
 - If you have a 64 bit version of Windows 10, download "Windows x64 Installer"
+	![p3](https://i.ibb.co/h1X1dLq/p3.png)
 - Run the installer
+	![p4](https://i.ibb.co/Dgwt4Mz/p4.png)
 	- Accept User Agreement
+	![p5](https://i.ibb.co/PM82YNk/p5.png)
 	- On the Install Options page
 		- SELECT "Add CMake to the system PATH for all users"
 		- Next
+	![p6](https://i.ibb.co/yWKskwR/p6.png)
 	- Choose your installation location. The default is fine.
+	![p7](https://i.ibb.co/4fBSTKM/p7.png)
 	- Proceed to install!
+	![p8](https://i.ibb.co/dQwN86V/p8.png)
 
 4. Double check the installation
 	- Select the Start button
