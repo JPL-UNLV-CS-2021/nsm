@@ -1,4 +1,4 @@
-# Quantom State Machine
+# Quantum State Machine
 ## Title
 A Naïve Analysis of HSM vs FSM State Design Patterns
 ## Abstract
