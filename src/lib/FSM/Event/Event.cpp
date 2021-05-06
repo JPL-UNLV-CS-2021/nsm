@@ -1,7 +1,3 @@
-//
-// Created by Michael Fields on 2/21/21.
-//
-
 #include "Event.h"
 
 using namespace std;

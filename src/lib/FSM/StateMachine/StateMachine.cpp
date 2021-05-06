@@ -1,22 +1,12 @@
-//
-// Author: Daniel Hartwig
-// Originally created: 2021-02-26
-//
+/**
 // The StateMachine class is a concrete class for a state machine object.
 // It is akin to the Context class in the GOF design pattern on State.  
-//
+**/
 
 #include "StateMachine.h"
-//#include "../State/LightOffState.h"
-//#include "../State/LightOnState.h"
 #include <time.h>
 #include <thread>
 
-// FUTURE MODIFY : Set to initial state of state diagram somehow
-//State* INIT_STATE  = new LightOffState();
-//State* NEXT_STATE =  new LightOnState();
-
-// Constructor
 StateMachine::StateMachine() {
     InitializeState();
     InitializeEventQueue();
@@ -24,21 +14,24 @@ StateMachine::StateMachine() {
 
 void StateMachine::InitializeState() {
 
-//    State* INIT_STATE  = new LightOffState(this);
-//    State* NEXT_STATE =  new LightOnState(this);
-//
-//    INIT_STATE->AddTransition("switch-on", NEXT_STATE);
-//
-//    NEXT_STATE->AddTransition("switch-off", INIT_STATE);
-//    NEXT_STATE->AddTransition("timeout", INIT_STATE);
-
-    this->_currentState = INIT_STATE;
+    /** TODO: add state initialization code
+     * Sample code for state initialization
+     * State* INIT_STATE  = new LightOffState(this);
+     * State* NEXT_STATE =  new LightOnState(this);
+     * INIT_STATE->AddTransition("switch-on", NEXT_STATE);
+     * NEXT_STATE->AddTransition("switch-off", INIT_STATE);
+     * NEXT_STATE->AddTransition("timeout", INIT_STATE);
+     * this->_currentState = INIT_STATE;
+     **/
 }
 
 void StateMachine::InitializeEventQueue() {
-//    this->_eventQueue.push(Event("switch-on", "external"));
-//    this->_eventQueue.push(Event("switch-off", "external", 500));
-//    this->_eventQueue.push(Event("switch-on", "external", 500));
+    /** TODO: add event queue initialize code
+     * Sample code for event queue initialization
+     * this->_eventQueue.push(Event("switch-on", "external"));
+     * this->_eventQueue.push(Event("switch-off", "external", 500));
+     * this->_eventQueue.push(Event("switch-on", "external", 500));
+     **/
 }
 
 

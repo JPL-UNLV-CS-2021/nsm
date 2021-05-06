@@ -1,8 +1,6 @@
-//
-// Created by Michael Fields on 2/21/21.
-//
-
-
+/**
+ * Represents an event that is dispatched to the current state
+ */
 
 #ifndef QSM_EVENT_H
 #define QSM_EVENT_H

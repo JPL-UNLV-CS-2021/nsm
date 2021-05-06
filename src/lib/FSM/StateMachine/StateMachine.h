@@ -1,12 +1,7 @@
-//
-// Author: Daniel Hartwig
-// Originally created: 2021-02-26
-//
-// The StateMachine class is a concrete class for a state machine object.
-// It is akin to the Context class in the GOF design pattern on State.  
-//
-
-
+/**
+ The StateMachine class is a concrete class for a state machine object.
+ It is akin to the Context class in the GOF design pattern on State.
+**/
 
 #include <string>
 #include <queue>

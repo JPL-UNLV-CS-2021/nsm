@@ -1,7 +1,3 @@
-//
-// Created by Michael Fields on 2/23/21.
-//
-
 #include <iostream>
 #include <thread>
 #include <chrono>
@@ -64,21 +60,6 @@ void State::PrintEnter() {
 void State::PrintExit() {
     cout << "exiting " << _stateName << endl;
 }
-
-State* State::ProcessChildren(Event event) {
-
-    /*if(_subStates.empty()) {
-        for (auto child = _subStates.begin(); child != _subStates.end(); ++child) {
-            auto result = child->ProcessEvent(event);
-            if(result != NULL) {
-                return result;
-            }
-        }
-//    }*/
-
-    return NULL;
-}
-
 
 void State::SetTimeOut(int seconds) {
 

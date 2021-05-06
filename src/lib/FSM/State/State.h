@@ -1,6 +1,6 @@
-//
-// Created by Michael Fields on 2/23/21.
-//
+/**
+ The State class is intended to be a base class for leaf states
+**/
 
 #include <iostream>
 #include <map>
@@ -28,7 +28,6 @@ protected:
     void PrintEnter();
     void PrintExit();
 
-    State* ProcessChildren(Event event);
     void SetTimeOut(int seconds);
     void CancelTimeout();
 
