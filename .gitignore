@@ -34,3 +34,15 @@
 
 # CLion
 .idea
+/src/AutoCoder/CompleteToolKit/Output_Files/generated_code/
+
+#CMAKE
+cmake-build-debug
+
+.DS_Store
+
+out/
+.vs/
+build/
+CMakeFiles
+

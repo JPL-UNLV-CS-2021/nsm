@@ -1,0 +1,9 @@
+{int:num_states}
+
+{state_name}
+[parent_state_name]
+[entry_function [, entry_function ...]]
+[exit_function [, exit_function ...]]
+[{reg_transition_to_state/on_event[-event_action]} | {transition_to_state/condition_true/event_to_begin_junction[-event_action]}] [, ...]
+
+[{next_state_name} ...]
