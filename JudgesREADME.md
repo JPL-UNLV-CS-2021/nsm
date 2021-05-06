@@ -107,7 +107,7 @@ As such to test it we must first spend time setting up a similiar environment..
 
 ![p15](https://i.ibb.co/Z60TXx7/p16.png)
 
-p16](https://i.ibb.co/4mccg0F/p17.png)
+![p16](https://i.ibb.co/4mccg0F/p17.png)
 
 # 6. Go back to the command line and run the following commands
 ```sh 
