@@ -123,14 +123,15 @@ pip install -r requirements.txt
 # 8. Create a list of events with time dispatched  > in.txt  
 (We have supplied a sample input file.)
 
-# 9. Run your machine by executing:
-```sh
-python main.py XML\<yourStateChart.qm> <yourInput.txt>
-```
-Or run our sample with
+# 9. Run our sample machine by executing:
 ```sh
 python main.py XML\demoChart3.qm in.txt
 ```
+But you can run any machine with:
+```sh
+python main.py XML\<yourStateChart.qm> <yourInput.txt>
+```
+
 
 ## Tech
 
