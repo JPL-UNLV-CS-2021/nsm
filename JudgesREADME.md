@@ -21,7 +21,7 @@ QSM is a state design pattern for embedded flight systems in the modern era.
 QSM is a tool to be used in conjuction with other tools  by JPL engineers in a development environment.
 As such to test it we must first spend time setting up a similiar environment..
 
-# 1. [Install QM](https://www.state-machine.com/qm/)
+# 1. [Install QM](https://www.state-machine.com/)
 
 - Download the installer
 
