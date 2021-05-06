@@ -1,6 +1,6 @@
 #include "State.h"
 
-HSMState::State() {
+State::State() {
 }
 
 void State::ChangeState(StateMachine* t, State* s) {

@@ -105,8 +105,8 @@ void StateMachine::HandleEntryExit(State* FROM, State* TO) {
 
 //This handles the first state the system enters
 void StateMachine::START() {
-    //Hacky way to deal with system start up
-    this->_state = Off::Instance();
+    // Example to set initial state
+    // this->_state = Off::Instance();
     _state->Entry();
 
 }
