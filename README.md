@@ -1,6 +1,6 @@
-# Quantom State Machine
+# Quantum State Machine
 ## Title
-A Naïve Analysis of HSM vs FSM State Design Patterns
+An Analysis of HSM vs FSM State Design Patterns
 ## Abstract
 UNLV Senior Design team conducted an analysis of hierarchical vs flat implementations of state machine design patterns.
 The team used two patterns to compare:

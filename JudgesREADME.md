@@ -1,4 +1,6 @@
-# Instructions for judges
+# Instructions for judges 
+
+* VERIFIED TO WORK WITH MicrosoftVisualStudio Compiler ONLY 
 ## _Must be run on a windows 10 Machine_
 QSM is a state design pattern for embedded flight systems in the modern era.
 
@@ -150,8 +152,8 @@ And of course QSM itself is open source with a [public repository](https://githu
 | Members | Github |
 | ------ | ------ |
 | Raphael Uzan | https://github.com/RaphaelRUzan |
-| x | [plugins/github/README.md][PlGh] |
-| x | [plugins/googledrive/README.md][PlGd] |
+| Michael Fields | https://github.com/lvblazer |
+| Edgar Amalyan | https://github.com/amalyane |
 | x | [plugins/onedrive/README.md][PlOd] |
 | x | [plugins/medium/README.md][PlMe] |
 | x | [plugins/googleanalytics/README.md][PlGa] |
