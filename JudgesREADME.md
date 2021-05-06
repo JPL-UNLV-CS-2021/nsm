@@ -111,7 +111,7 @@ As such to test it we must first spend time setting up a similiar environment..
 
 # 6. Go back to the command line and run the following commands
 ```sh 
-cd Downloads\qsm\qsm\src\autocoder
+cd Downloads\qsm-main\qsm-main\src\autocoder
 python -m venv venv_autocoder
 venv_autocoder\Scripts\activate
 pip install -r requirements.txt
