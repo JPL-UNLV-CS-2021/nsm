@@ -149,7 +149,7 @@ And of course QSM itself is open source with a [public repository](https://githu
 ## Team Members
 | Members | Github |
 | ------ | ------ |
-| Raphael Uzan | [https://github.com/RaphaelRUzan] |
+| Raphael Uzan | https://github.com/RaphaelRUzan |
 | x | [plugins/github/README.md][PlGh] |
 | x | [plugins/googledrive/README.md][PlGd] |
 | x | [plugins/onedrive/README.md][PlOd] |
