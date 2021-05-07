@@ -1,4 +1,4 @@
-# Quantum State Machine
+# Nominal State Machine
 ## Getting Started
 
 Follow our judgesREADME.md to run the auto coder.
