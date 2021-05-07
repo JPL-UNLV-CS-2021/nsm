@@ -7,7 +7,13 @@ Follow our judgesREADME.md to run the auto coder.
 
 To run our example Flat State Machine:
 ```sh
-
+git clone https://github.com/JPL-UNLV-CS-2021/nsm
+cd nsm\examples\FSM\Demo
+mkdir build
+cd build
+cmake ..
+cmake --build .
+Debug\FSM.exe
 ```
 To run our example Hierarchical State Machine:
 ```sh
