@@ -4,7 +4,6 @@
 Follow our judgesREADME.md to run the auto coder.
 
 ## Running the example
-Run the provided by 
 
 To run our example Flat State Machine:
 ```sh
