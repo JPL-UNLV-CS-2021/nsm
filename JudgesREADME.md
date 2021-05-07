@@ -156,11 +156,11 @@ And of course NSM itself is open source with a [public repository](https://githu
 | Raphael Uzan | https://github.com/RaphaelRUzan |
 | Michael Fields | https://github.com/lvblazer |
 | Edgar Amalyan | https://github.com/amalyane |
-| Brandon Christensen | [https://github.com/BrandonChristensenCS] |
-| Daniel Hartwig | [https://github.com/DanielHartwigUNLV] |
-| Daniel Jacoby | [https://github.com/djacoby495] |
-| Stephen Baker | [https://github.com/JAC-Sbaker] |
-| Blake Reynolds | [No link] |
+| Brandon Christensen | https://github.com/BrandonChristensenCS |
+| Daniel Hartwig | https://github.com/DanielHartwigUNLV |
+| Daniel Jacoby | https://github.com/djacoby495 |
+| Stephen Baker | https://github.com/JAC-Sbaker |
+| Blake Reynolds |  |
 
 
 ## License
