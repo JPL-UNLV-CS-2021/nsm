@@ -12,7 +12,7 @@ To run our example Flat State Machine:
 To run our example Hierarchical State Machine:
 ```sh
 git clone https://github.com/JPL-UNLV-CS-2021/qsm
-cd qsm\examples\HSM\Demo
+cd nsm\examples\HSM\Demo
 mkdir build
 cd build
 cmake ..
