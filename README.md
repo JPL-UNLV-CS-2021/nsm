@@ -3,7 +3,7 @@
 
 Follow our judgesREADME.md to run the auto coder.
 
-For more information about the [project](https://docs.google.com/presentation/d/1kaaJu0d3DGfcilvxLvhWHmL3THr0kAyWd66mYDnDzAQ/)
+For more information about the project visit [this](https://docs.google.com/presentation/d/1kaaJu0d3DGfcilvxLvhWHmL3THr0kAyWd66mYDnDzAQ/)
 
 ## Running the example
 
