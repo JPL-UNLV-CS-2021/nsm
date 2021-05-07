@@ -2,7 +2,7 @@
 
 * VERIFIED TO WORK WITH MicrosoftVisualStudio Compiler ONLY 
 ## _Must be run on a windows 10 Machine_
-QSM is a state design pattern for embedded flight systems in the modern era.
+NSM is a state design pattern for embedded flight systems in the modern era.
 
 - No Recursion
 - No templating
@@ -20,7 +20,7 @@ QSM is a state design pattern for embedded flight systems in the modern era.
 
 ## Installation for Auto Coder
 
-QSM is a tool to be used in conjuction with other tools  by JPL engineers in a development environment.
+NSM is a tool to be used in conjuction with other tools  by JPL engineers in a development environment.
 As such to test it we must first spend time setting up a similiar environment..
 
 # 1. [Install QM](https://www.state-machine.com/)
@@ -119,7 +119,7 @@ venv_autocoder\Scripts\activate
 pip install -r requirements.txt
 ```
 
-# 7. Make sure you have a valid QM statechart in the "Downloads\qsm\qsm\autocoder\XML" directory. 
+# 7. Make sure you have a valid QM statechart in the "Downloads\nsm\nsm\autocoder\XML" directory. 
 (We have supplied a sample statechart.)
 
 # 8. Create a list of events with time dispatched  > in.txt  
@@ -137,7 +137,7 @@ python main.py XML\<yourStateChart.qm> <yourInput.txt>
 
 ## Tech
 
-QSM uses a number of open source projects to work properly:
+NSM uses a number of open source projects to work properly:
 
 - [Python](https://breakdance.github.io/breakdance/) - A powerful scripting language
 - [CMAKE](https://breakdance.github.io/breakdance/) - The standard compiler management project for c++
@@ -145,7 +145,7 @@ QSM uses a number of open source projects to work properly:
 - [LXML](https://breakdance.github.io/breakdance/) - an open source parsing library
 - [JSON](https://breakdance.github.io/breakdance/) - a lightweight data-interchange format
 
-And of course QSM itself is open source with a [public repository](https://github.com/JPL-UNLV-CS-2021/qsm)
+And of course NSM itself is open source with a [public repository](https://github.com/JPL-UNLV-CS-2021/qsm)
  on GitHub.
 
 ## Team Members
