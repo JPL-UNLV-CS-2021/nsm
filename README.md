@@ -10,5 +10,18 @@ We found that the HSM implementation consumes more time and memory at runtime, b
 
 ## Getting Started
 
+Follow our judgesREADME.md to run the auto coder.
+
 ## Running the example
 Run the provided by 
+
+To run our example Flat State Machine:
+```sh
+
+```
+To run our example Hierarchical State Machine:
+```sh
+
+```
+
+Thank you.
