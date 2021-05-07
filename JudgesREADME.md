@@ -1,7 +1,7 @@
 # Instructions for judges 
 
 * VERIFIED TO WORK WITH MicrosoftVisualStudio Compiler ONLY 
-* In other words, install Visual Studio 2019 Community Edition
+* In other words, install Visual Studio 2019 Community Edition before you begin this process.
 
 ## _Must be run on a windows 10 Machine_
 NSM is a state design pattern for embedded flight systems in the modern era.
